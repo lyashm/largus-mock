@@ -1,0 +1,45 @@
+{
+  "pickpoints": [
+    {
+      "id": 1914,
+      "address": "г. Москва, Большой Тишинский переулок, д. 40с1",
+      "work_time": "Ежедневно 10:00-21:00",
+      "latitude": 52.407551,
+      "longitude": 37.574741,
+      "deliveries": [
+        {
+          "account": {
+            "first_name": "Михаил",
+            "last_name": "Ляшенко",
+            "private_code": "123",
+            "qr_private_code": "55629775_085",
+            "gender": "male",
+            "phone": "+7 (***) *** 5820"
+          },
+          "products": [
+            {
+              "uuid": "14c5a9f7-1039-4f27-a76b-9cb337ef7c89",
+              "name": "Тушь для ресниц 3 в 1, черная",
+              "image": "https://images.wbstatic.net/17699281-1.jpg",
+              "article_id": 17699281,
+              "quantity": 1,
+              "characteristic_id": 17699281,
+              "charactristic_name": "XS",
+              "price": 999.99,
+              "min_delivery_date": "2021-03-02",
+              "max_delivery_date": "2021-04-02",
+              "status": "waiting",
+              "delivered_at": 1568733601,
+              "received_at": 1568733601,
+              "mark": {
+                "status": "rejected",
+                "reason": "Не забрал на пункте выдачи.",
+                "can_change": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

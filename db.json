@@ -1,41 +1,112 @@
 {
-  "pickpoints": [
+  "deliveries": [
     {
-      "id": 1914,
-      "address": "г. Москва, Большой Тишинский переулок, д. 40с1",
-      "work_time": "Ежедневно 10:00-21:00",
-      "latitude": 52.407551,
-      "longitude": 37.574741,
-      "deliveries": [
+      "id": "a6238d3e-b398-475e-884c-1c2af361a6c7",
+      "pickpoints": [
         {
-          "account": {
-            "first_name": "Михаил",
-            "last_name": "Ляшенко",
-            "private_code": "123",
-            "qr_private_code": "55629775_085",
-            "gender": "male",
-            "phone": "+7 (***) *** 5820"
-          },
-          "products": [
+          "id": 1914,
+          "address": "г. Москва, Большой Тишинский переулок, д. 40с1",
+          "work_time": "Ежедневно 10:00-21:00",
+          "latitude": 52.407551,
+          "longitude": 37.574741,
+          "deliveries": [
             {
-              "uuid": "14c5a9f7-1039-4f27-a76b-9cb337ef7c89",
-              "name": "Тушь для ресниц 3 в 1, черная",
-              "image": "https://images.wbstatic.net/17699281-1.jpg",
-              "article_id": 17699281,
-              "quantity": 1,
-              "characteristic_id": 17699281,
-              "charactristic_name": "XS",
-              "price": 999.99,
-              "min_delivery_date": "2021-03-02",
-              "max_delivery_date": "2021-04-02",
-              "status": "waiting",
-              "delivered_at": 1568733601,
-              "received_at": 1568733601,
-              "mark": {
-                "status": "rejected",
-                "reason": "Не забрал на пункте выдачи.",
-                "can_change": true
-              }
+              "account": {
+                "first_name": "Михаил",
+                "last_name": "Ляшенко",
+                "private_code": "123",
+                "qr_private_code": "55629775_085",
+                "gender": "male",
+                "phone": "+7 (***) *** 5820"
+              },
+              "products": [
+                {
+                  "uuid": "14c5a9f7-1039-4f27-a76b-9cb337ef7c89",
+                  "name": "Флоранс Постельное белье 2",
+                  "image": "http://basket-04.wb.ru/vol669/part66908/66908136/images/big/1.jpg",
+                  "article_id": 66908136,
+                  "quantity": 1,
+                  "characteristic_id": 17699281,
+                  "charactristic_name": "XS",
+                  "price": 2999.9,
+                  "delivered_at": 1568733601,
+                  "received_at": 1568733601,
+                  "mark": {
+                    "status": "unmarked",
+                    "can_change": true
+                  }
+                },
+                {
+                  "uuid": "9476e65d-6f49-429f-bda1-f57926b67cce",
+                  "name": "Кроссовки",
+                  "image": "http://basket-10.wb.ru/vol1426/part142622/142622270/images/big/1.jpg",
+                  "article_id": 142622270,
+                  "quantity": 1,
+                  "characteristic_id": 17699281,
+                  "charactristic_name": "XS",
+                  "price": 2999.9,
+                  "delivered_at": 1568733601,
+                  "received_at": 1568733601,
+                  "mark": {
+                    "status": "unmarked",
+                    "can_change": true
+                  }
+                }
+              ]
+            },
+            {
+              "id": 1914,
+              "address": "г. Москва, Улица 1905 года",
+              "work_time": "Ежедневно 10:00-22:00",
+              "latitude": 52.407551,
+              "longitude": 37.574741,
+              "deliveries": [
+                {
+                  "account": {
+                    "first_name": "Михаил",
+                    "last_name": "Ляшенко",
+                    "private_code": "123",
+                    "qr_private_code": "55629775_085",
+                    "gender": "male",
+                    "phone": "+7 (***) *** 5820"
+                  },
+                  "products": [
+                    {
+                      "uuid": "14c5a9f7-1039-4f27-a76b-9cb337ef7c89",
+                      "name": "Флоранс Постельное белье 2",
+                      "image": "http://basket-04.wb.ru/vol669/part66908/66908136/images/big/1.jpg",
+                      "article_id": 66908136,
+                      "quantity": 1,
+                      "characteristic_id": 17699281,
+                      "charactristic_name": "XS",
+                      "price": 2999.9,
+                      "delivered_at": 1568733601,
+                      "received_at": 1568733601,
+                      "mark": {
+                        "status": "received",
+                        "can_change": true
+                      }
+                    },
+                    {
+                      "uuid": "9476e65d-6f49-429f-bda1-f57926b67cce",
+                      "name": "Кроссовки",
+                      "image": "http://basket-10.wb.ru/vol1426/part142622/142622270/images/big/1.jpg",
+                      "article_id": 142622270,
+                      "quantity": 1,
+                      "characteristic_id": 17699281,
+                      "charactristic_name": "XS",
+                      "price": 2999.9,
+                      "delivered_at": 1568733601,
+                      "received_at": 1568733601,
+                      "mark": {
+                        "status": "rejected",
+                        "reason": "Товар не доехал",
+                        "can_change": true
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
